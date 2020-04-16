@@ -1,0 +1,13 @@
+{
+  "name": "@my/common",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "./src/index.ts",
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "jsx": "react",
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+
+        "allowJs": false,
+        "checkJs": false,
+
+        "strict": true,
+        "noUnusedLocals": true,
+
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+
+        "noEmit": true,
+        "isolatedModules": true
+    },
+    "typeAcquisition": {
+        "enable": false
+    },
+    "exclude": [
+        "**/node_modules/*",
+        "**/dist/*"
+    ]
+}
